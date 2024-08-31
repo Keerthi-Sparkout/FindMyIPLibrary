@@ -1,6 +1,6 @@
 //
-//  SwiftUIView.swift
-//  
+//  IPDetailsContentView.swift
+//
 //
 //  Created by apple on 31/08/24.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @available(iOS 14.0, *)
-public struct ContentView: View {
+public struct IPDetailsContentView: View {
     @StateObject var viewModel: IpDetailsViewModel = .init(network: NetworkService())
     @State var isLoading: Bool = true
     @State var errorMessage: String = ""
