@@ -13,6 +13,10 @@ public struct IPDetailsContentView: View {
     @State var isLoading: Bool = true
     @State var errorMessage: String = ""
     
+    public init() {
+        
+    }
+    
     public var body: some View {
         VStack {
             Text("IP Details")
