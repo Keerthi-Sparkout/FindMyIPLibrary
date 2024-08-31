@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import Alamofire
 import Combine
+import Alamofire
 
 @available(iOS 13.0, *)
 public  protocol NetworkDataProtocol {
